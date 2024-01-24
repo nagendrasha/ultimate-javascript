@@ -1,8 +1,14 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){
-//     console.log(val);
-// } )
+coding.forEach( function (val){
+    if (val=="js") {
+        console.log('You Are osm');
+    }
+    else{
+        
+        console.log(val);
+    }
+} );
 
 // coding.forEach( (item) => {
 //     console.log(item);
@@ -18,22 +24,22 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item, index, arr);
 // } )
 
-const myCoding = [
-    {
-        languageName: "javascript",
-        languageFileName: "js"
-    },
-    {
-        languageName: "java",
-        languageFileName: "java"
-    },
-    {
-        languageName: "python",
-        languageFileName: "py"
-    },
-]
+// const myCoding = [
+//     {
+//         languageName: "javascript",
+//         languageFileName: "js"
+//     },
+//     {
+//         languageName: "java",
+//         languageFileName: "java"
+//     },
+//     {
+//         languageName: "python",
+//         languageFileName: "py"
+//     },
+// ]
 
-myCoding.forEach( (item) => {
+// myCoding.forEach( (item) => {
     
-    console.log(item.languageName);
-} )
+//     console.log(item.languageName);
+// } )
